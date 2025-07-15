@@ -4,6 +4,25 @@ This is a simple **Tic Tac Toe** game implemented in **Java**, playable via the 
 
 ---
 
+## 🧰 Build System
+
+This project uses **Maven** as its build and dependency management tool.  
+It includes static code analysis tools to ensure code quality and maintainability:
+
+- ✅ **PMD** – Detects programming flaws like unused variables, empty catch blocks, etc.
+- ✅ **Checkstyle** – Enforces code style and formatting rules (Google Java Style)
+- ✅ **SpotBugs + FindSecurityBugs** – Finds potential bugs and security issues in bytecode
+
+These tools run automatically with:
+
+```bash
+mvn verify
+```
+
+And will **fail the build** if violations are found.
+
+---
+
 ## 🎮 How to Play
 
 When you run the program, you'll be prompted with a command menu.
@@ -56,14 +75,20 @@ exit
 ## ✅ Requirements
 
 - Java 17 or higher
-- Any IDE (e.g. IntelliJ IDEA) or terminal that supports compiling and running Java
+- Maven 3.8+ (or just use the wrapper `mvnw`)
+- Any IDE (e.g. IntelliJ IDEA) or terminal that supports running `.jar`
 
 ---
 
 ## 🚀 Running the Game
 
-Compile and run the `Main` class (or entry point of your program).  
-A menu will appear in the console to start and manage games.
+You can run the game from the terminal using:
+
+```bash
+java -jar "Tic Tac Toe Game.jar"
+```
+
+Make sure you're in the root folder of the project when running the above command.
 
 ---
 
