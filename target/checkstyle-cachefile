@@ -1,0 +1,4 @@
+#Tue Jul 15 11:59:54 GMT-03:00 2025
+configuration*?=5FB6550D6A2E49B35E1DB4D0D646BC9FC2DF87DC
+module-resource*?\:checkstyle-suppressions.xml=38745B12053F84F804623B449B072A4210A76A5F
+module-resource*?\:checkstyle-xpath-suppressions.xml=C6671459D43C4BBC480BA0980C2D184D1346B1ED
