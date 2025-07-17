@@ -42,7 +42,6 @@ out/
 
 # Archivos binarios
 *.class
-*.jar
 
 # Sistema operativo
 .DS_Store
