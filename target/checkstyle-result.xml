@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Game\Board.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Game\Board.java">
 <error line="1" column="9" severity="warning" message="Package name &apos;Game&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="3" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 <error line="4" column="5" severity="warning" message="&apos;member def modifier&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
@@ -134,7 +134,7 @@
 <error line="141" column="9" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 8, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="142" column="5" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Game\Game.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Game\Game.java">
 <error line="1" column="9" severity="warning" message="Package name &apos;Game&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="5" column="1" severity="warning" message="Separación extra en el grupo de importación antes &apos;java.util.Scanner&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="7" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
@@ -227,13 +227,13 @@
 <error line="82" column="9" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 8, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="83" column="5" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Main.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Main.java">
 <error line="5" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 <error line="6" column="5" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="7" column="9" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 8, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="8" column="5" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Menu.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Menu.java">
 <error line="7" column="1" severity="warning" message="Separación extra en el grupo de importación antes &apos;java.util.Scanner&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="9" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 <error line="11" column="5" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
@@ -281,7 +281,7 @@
 <error line="59" column="9" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 8, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="60" column="5" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Players\MovementStrategy\DefaultMovementStrategy.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Players\MovementStrategy\DefaultMovementStrategy.java">
 <error line="1" column="9" severity="warning" message="Package name &apos;Players.MovementStrategy&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="5" column="1" severity="warning" message="Separación extra en el grupo de importación antes &apos;java.util.Random&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="7" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
@@ -298,7 +298,7 @@
 <error line="16" column="9" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 8, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="17" column="5" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Players\MovementStrategy\EasyMovementStrategy.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Players\MovementStrategy\EasyMovementStrategy.java">
 <error line="1" column="9" severity="warning" message="Package name &apos;Players.MovementStrategy&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="5" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 <error line="7" column="1" severity="warning" message="&apos;ctor def modifier&apos; estás en el nivel de sangrado 0, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
@@ -310,7 +310,7 @@
 <error line="13" column="9" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 8, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="14" column="5" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Players\MovementStrategy\HardMovementStrategy.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Players\MovementStrategy\HardMovementStrategy.java">
 <error line="1" column="9" severity="warning" message="Package name &apos;Players.MovementStrategy&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="5" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 <error line="7" column="1" severity="warning" message="&apos;ctor def modifier&apos; estás en el nivel de sangrado 0, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
@@ -367,13 +367,13 @@
 <error line="63" column="9" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 8, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="64" column="5" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Players\MovementStrategy\IMovementStrategy.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Players\MovementStrategy\IMovementStrategy.java">
 <error line="1" column="9" severity="warning" message="Package name &apos;Players.MovementStrategy&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="5" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 <error line="5" column="18" severity="warning" message="Abreviatura en nombre &apos;IMovementStrategy&apos; debe contener no más de &apos;1&apos; mayúsculas." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
 <error line="6" column="5" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Players\MovementStrategy\MediumMovementStrategy.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Players\MovementStrategy\MediumMovementStrategy.java">
 <error line="1" column="9" severity="warning" message="Package name &apos;Players.MovementStrategy&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="5" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 <error line="7" column="1" severity="warning" message="&apos;ctor def modifier&apos; estás en el nivel de sangrado 0, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
@@ -446,7 +446,7 @@
 <error line="82" column="9" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 8, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="83" column="5" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Players\Player.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Players\Player.java">
 <error line="1" column="9" severity="warning" message="Package name &apos;Players&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="4" column="1" severity="warning" message="Orden lexicográfico incorrecto de &apos;Game.Board&apos; importación. En caso de ser antes de &apos;java.util.Scanner&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="6" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
@@ -465,7 +465,7 @@
 <error line="19" column="5" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="21" column="5" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Players\PlayerFactory.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Players\PlayerFactory.java">
 <error line="1" column="9" severity="warning" message="Package name &apos;Players&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="7" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 <error line="8" column="5" severity="warning" message="&apos;method def modifier&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
@@ -479,7 +479,7 @@
 <error line="15" column="9" severity="warning" message="&apos;switch rcurly&apos; estás en el nivel de sangrado 8, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="16" column="5" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Players\PlayerHuman.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Players\PlayerHuman.java">
 <error line="1" column="9" severity="warning" message="Package name &apos;Players&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="5" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 <error line="5" column="40" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
@@ -491,7 +491,7 @@
 <error line="13" column="9" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 8, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="14" column="5" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Players\PlayerIA.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Players\PlayerIA.java">
 <error line="1" column="9" severity="warning" message="Package name &apos;Players&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="6" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 <error line="6" column="14" severity="warning" message="Abreviatura en nombre &apos;PlayerIA&apos; debe contener no más de &apos;1&apos; mayúsculas." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
@@ -505,7 +505,7 @@
 <error line="17" column="9" severity="warning" message="El hijo de &apos;method def&apos; estás en el nivel de sangrado 8, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="18" column="5" severity="warning" message="&apos;method def rcurly&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\juaan\IdeaProjects\tictactoe-console\src\main\java\Players\PlayerType.java">
+<file name="C:\Users\juaan\OneDrive\Documents\GitHub\tictactoe console\src\main\java\Players\PlayerType.java">
 <error line="1" column="9" severity="warning" message="Package name &apos;Players&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="3" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 </file>

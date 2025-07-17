@@ -27,3 +27,23 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# IntelliJ
+.idea/
+*.iml
+
+# Maven
+target/
+.mvn/
+
+# Compilación Java
+build/
+out/
+
+# Archivos binarios
+*.class
+*.jar
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
