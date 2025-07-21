@@ -10,29 +10,11 @@ public class Board {
                 board[i][j] = ' ';
     }
 
-    public void setupFromString(String initialState) {
-        if (initialState.length() != 9) {
-            throw new IllegalArgumentException("El estado inicial debe tener exactamente 9 caracteres.");
-        }
-
-        for (int i = 0; i < 9; i++) {
-            char c = initialState.charAt(i);
-            if (c != 'X' && c != 'O' && c != '_') {
-                throw new IllegalArgumentException("Caracter inválido en la posición " + i + ": '" + c + "'. Solo se permiten 'X', 'O' y '_'.");
-            }
-
-            int row = i / 3;
-            int col = i % 3;
-            setCell(row, col, c == '_' ? ' ' : c);
-        }
-        printBoard();
-    }
 
     public void setCell(int row, int col, char symbol) throws IllegalStateException{
         this.validateMove(row, col, symbol);
         board[row][col] = symbol;
     }
-
     public void printBoard() {
         System.out.println("---------");
         for (int i = 0; i < 3; i++) {
@@ -123,7 +105,6 @@ public class Board {
                 return board[0][j];
             }
         }
-
         // Diagonal principal
         if (board[0][0] != ' ' &&
                 board[0][0] == board[1][1] &&
@@ -137,7 +118,6 @@ public class Board {
                 board[1][1] == board[2][0]) {
             return board[0][2];
         }
-
         return null;
     }
 

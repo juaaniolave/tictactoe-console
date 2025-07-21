@@ -1,25 +1,29 @@
 package Game;
 
 import org.junit.jupiter.api.Test;
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BoardTest {
 
     @Test
-    public void testHorizontalWinRow0() {
+    public void testHorizontalWinRow2() {
         Board board = new Board();
-        board.setCell(0, 0, 'X');
-        board.setCell(0, 1, 'X');
-        board.setCell(0, 2, 'X');
+        board.setCell(2, 0, 'X');
+        board.setCell(2, 1, 'X');
+        board.setCell(2, 2, 'X');
         assertTrue(board.hasWinner(), "Expected winner on top row");
     }
 
     @Test
-    public void testVerticalWinCol1() {
+    public void testVerticalWinCol2() {
         Board board = new Board();
-        board.setCell(0, 1, 'O');
-        board.setCell(1, 1, 'O');
-        board.setCell(2, 1, 'O');
+        board.setCell(0, 2, 'O');
+        board.setCell(1, 2, 'O');
+        board.setCell(2, 2, 'O');
         assertTrue(board.hasWinner(), "Expected winner on column 1");
     }
 
@@ -30,6 +34,19 @@ public class BoardTest {
         board.setCell(1, 1, 'X');
         board.setCell(2, 2, 'X');
         assertTrue(board.hasWinner(), "Expected winner on main diagonal");
+        assertEquals('X', board.getWinner());
+
+    }
+
+    @Test
+    public void testDiagonal2() {
+        Board board = new Board();
+        board.setCell(0, 2, 'X');
+        board.setCell(1, 1, 'X');
+        board.setCell(2, 0, 'X');
+        assertTrue(board.hasWinner(), "Expected winner on main diagonal");
+        assertEquals('X', board.getWinner());
+
     }
 
     @Test
@@ -39,6 +56,7 @@ public class BoardTest {
         board.setCell(1, 1, 'O');
         board.setCell(2, 0, 'O');
         assertTrue(board.hasWinner(), "Expected winner on anti-diagonal");
+        assertEquals('O', board.getWinner());
     }
 
     @Test
@@ -54,6 +72,7 @@ public class BoardTest {
         board.setCell(2, 1, 'X');
         board.setCell(2, 2, 'X');
         assertFalse(board.hasWinner(), "Expected no winner in full board with no line");
+        assertNull(board.getWinner());
     }
 
     @Test
@@ -84,4 +103,39 @@ public class BoardTest {
         board.setCell(2, 2, 'X');
         assertTrue(board.isFull(), "Expected board to be full");
     }
+
+    @Test
+    public void testPrintBoard() {
+        Board board = new Board();
+        board.setCell(0, 0, 'X');
+        board.setCell(1, 1, 'O');
+        board.setCell(2, 2, 'X');
+
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        board.printBoard();
+
+        System.setOut(System.out);
+
+        String expected =
+                "---------\n" +
+                        "| X \0 \0 |\n" +
+                        "| \0 O \0 |\n" +
+                        "| \0 \0 X |\n" +
+                        "---------\n";
+
+        String actual = outContent.toString().replace('\0', ' ').replace("\r\n", "\n");
+
+
+        String expectedNormalized =
+                "---------\n" +
+                        "| X     |\n" +
+                        "|   O   |\n" +
+                        "|     X |\n" +
+                        "---------\n";
+
+        assertEquals(expectedNormalized, actual);
+    }
+
 }

@@ -2,11 +2,8 @@ package Game;
 
 import Players.Player;
 
-import java.util.Scanner;
-
 public class Game {
 
-    private final Scanner scanner;
     private final Board board;
     private final Player playerX;
     private final Player playerO;
@@ -16,20 +13,9 @@ public class Game {
         this.playerX = playerX;
         this.playerO = playerO;
         this.board = board;
-        this.scanner = new Scanner(System.in);
         this.actualPlayer=playerX;
     }
 
-    public void setupBoard() {
-
-        System.out.print("Enter the cells: ");
-        String initialBoardState = scanner.nextLine();
-        try {
-            board.setupFromString(initialBoardState);
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-        }
-    }
 
     public void start(){
         String nextMove;
@@ -58,7 +44,7 @@ public class Game {
                 System.out.println(playerO.getUserName() + " wins");
         }
     }
-    private void validateInputAndSetCell(String nextMove) throws IllegalArgumentException {
+    protected void validateInputAndSetCell(String nextMove) throws IllegalArgumentException {
         String[] parts = nextMove.trim().split(" ");
 
         if (parts.length != 2) {
@@ -81,5 +67,9 @@ public class Game {
         // restamos 1 porque el usuario ingresa del 1 al 3, pero el array es 0 a 2
         board.setCell(row - 1, col - 1, actualPlayer.getUserName());
     }
+    public Board getBoard() {
+        return board;
+    }
+
 
 }

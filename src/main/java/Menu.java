@@ -8,8 +8,13 @@ import java.util.Scanner;
 
 public class Menu {
 
+    private final Scanner scanner;
+
+    public Menu (Scanner scanner) {
+        this.scanner = scanner;
+    }
     public void showMenu() {
-        Scanner scanner = new Scanner(System.in);
+
         System.out.print("Input command: ");
         String command = scanner.nextLine();
 
