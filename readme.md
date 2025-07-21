@@ -111,6 +111,48 @@ Make sure you're in the root folder of the project when running the above comman
 
 ---
 
+
+---
+
+## ✅ Tests and Plugins
+
+This project includes a full test suite using **JUnit 5** and **Mockito**, covering:
+
+- Game logic (`Game`, `Board`, `Player`, `PlayerFactory`, etc.)
+- AI behavior for all difficulty levels (`Easy`, `Medium`, `Hard`)
+- User interaction (`Menu`, `Main`), with input simulated via `Scanner`
+
+You can run all tests with:
+
+```bash
+mvn clean verify
+```
+
+This command also runs all quality plugins:
+
+- ✅ **PMD**
+- ✅ **Checkstyle**
+- ✅ **SpotBugs + FindSecurityBugs**
+- ✅ **JaCoCo** for code coverage (if configured)
+
+The build will fail if any rule violation or test failure occurs.
+
+
+
+---
+
+## 📊 Test Coverage
+
+Code coverage is measured using **JaCoCo**, and can be viewed by running:
+
+```bash
+mvn clean verify
+```
+Then open the following file in your browser:
+
+```
+target/site/jacoco/index.html
+```
 ## 📌 License
 
 This project is open for educational use and modification.
